@@ -1,0 +1,9 @@
+server:
+  port: 32345 #你的端口
+eureka:
+  client:
+    serviceUrl: 
+       defaultZone: http://localhost:12345/eureka/     #服务中心地址
+spring:
+    application:
+       name: clientName #客户端的名字
